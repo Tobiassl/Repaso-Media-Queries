@@ -1,0 +1,69 @@
+body{
+    width: 800px;
+    margin: 0 auto;
+    background-color: yellow;
+    
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.hero{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid red;
+}
+.dos{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid blue;
+}
+
+
+.fotoytexto{
+    display: flex;
+    align-items: center;
+
+}
+.frutilla{
+    width: 400px;
+}
+
+.about{
+    background-color: darkgray;
+}
+img{
+    flex-direction: column;
+    width: 195px;
+    
+}
+.imagenes{
+    display: flex;
+    gap: 5px;
+}
+
+
+@media (max-width:900px){
+    body{
+        width: 600px;
+    }
+}
+
+@media (max-width:600px){
+    body{
+        width: 400px;
+    }
+    .fotoytexto{
+        flex-direction: column;
+    }
+    .imagenes{
+        flex-direction: column;
+        align-items: center;
+
+    }
+    img{
+        margin-bottom: 5px;
+    }
+}
